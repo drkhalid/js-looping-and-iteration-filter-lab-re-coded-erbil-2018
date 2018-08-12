@@ -14,6 +14,6 @@ function fuzzyMatch(list,name){
 
 function matchName(lsit,prop){
   return list.filter(function(driverProp){
-    return driverProp.name === prop
+    return driverProp.name.toLowerCase() === prop.toLowerCase()
   })
 }

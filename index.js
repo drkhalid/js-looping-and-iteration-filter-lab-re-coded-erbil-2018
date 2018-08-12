@@ -12,8 +12,8 @@ function fuzzyMatch(list,name){
   
 }
 
-function matchName(lsit,name){
+function matchName(lsit,prop){
   return list.filter(function(driverProp){
-    return list.name === name
+    return list.name === prop
   })
 }

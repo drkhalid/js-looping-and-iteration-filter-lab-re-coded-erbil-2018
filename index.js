@@ -13,14 +13,14 @@ function fuzzyMatch(list,name){
 }
 
 function matchName(lsit, prop){
-  return list.filter(function(driverProp){
+  return list.filter(function (driverProp){
     return driverProp.name.toLowerCase() === prop.toLowerCase()
   });
 }
 
 
 function matchName (list, prop) {
-  return list.filter(function (driver) {
-    return driver.name.toLowerCase() === prop.toLowerCase();
+  return list.filter(function (driverProp) {
+    return driverProp.name.toLowerCase() === prop.toLowerCase();
   });
 }

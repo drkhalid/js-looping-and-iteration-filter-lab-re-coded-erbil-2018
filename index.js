@@ -19,8 +19,8 @@ function matchName(lsit, prop){
 }
 
 
-function matchName (list, name) {
+function matchName (list, prop) {
   return list.filter(function (driver) {
-    return driver.name.toLowerCase() === name.toLowerCase();
+    return driver.name.toLowerCase() === prop.toLowerCase();
   });
 }

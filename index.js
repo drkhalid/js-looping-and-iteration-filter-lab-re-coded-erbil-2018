@@ -6,6 +6,8 @@ function findMatching (list, name) {
 }
 
 function fuzzyMatch(list,name){
-  return list.filter
+  return list.filter(function(){
+    
+  })
   
 }
